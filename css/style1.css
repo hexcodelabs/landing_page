@@ -331,6 +331,7 @@ ol {
 
 .hero .header button {
   background: #2249d3;
+  box-shadow: 0px 6px 15px rgba(65, 81, 226, 0.5);
   color: white;
   border-radius: 30px;
   padding: 5px 20px;
@@ -347,7 +348,11 @@ ol {
 
 #header-image {
   position: absolute;
+  margin-top: -160px;
+  margin-right: 0px;
+  padding-right: 53px;
   z-index: 5;
+  width: 90%;
 }
 
 @media screen and (max-width: 600px) {
@@ -568,10 +573,9 @@ ol {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: red;
   margin-right: 20px;
   position: absolute;
-  border: 2px solid #1c2d4b;
+  border: 2px solid #2249d3;
   top: 15px;
 }
 .measure-form-rating .pics .one {
@@ -596,7 +600,7 @@ ol {
 
 .measure-form-rating .rate .stars {
   display: flex;
-  color: blue;
+  color: #2249d3;
   align-items: center;
 }
 
@@ -608,21 +612,21 @@ ol {
 }
 
 .measure-form-rating .rate .stars .top {
-  color: black;
+  color: rgb(151, 151, 151);
 }
 
 .measure-form-rating .rate .stars .bottom {
   position: absolute;
   max-width: 14px;
   overflow: hidden;
-  top: -2px;
-  right: 18px;
+  top: -3px;
+  right: 17px;
   padding: 0;
   margin: 0;
 }
 
 .measure-form-rating .rate .stars .bottom i {
-  color: blue;
+  color: #2249d3;
 }
 
 /*---------------------
@@ -714,7 +718,7 @@ ol {
 }
 
 .chooseus .chooseus-one {
-  background: #1f2639;
+  background: #ffffff;
   height: 70vh;
   width: 100%;
   display: flex;
@@ -725,7 +729,7 @@ ol {
 
 .chooseus .chooseus-one h3 {
   font-size: 30px;
-  color: white;
+  /* color: white; */
   /* padding-left: 100px; */
   text-align: center;
   margin-top: 20px;
@@ -742,13 +746,14 @@ ol {
 }
 
 .chooseus .chooseus-one h3 span {
-  color: blue;
+  color: #2249d3;
 }
 
 .chooseus .chooseus-two {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #f2f2f2;
   padding: 0;
   margin: 0;
   width: 100%;
@@ -782,7 +787,7 @@ ol {
   width: 129px;
   height: 129px;
   border-radius: 50%;
-  background: #00aeef;
+  background: linear-gradient(to top left, rgba(182, 187, 211, 0.959), #2249d3);
   z-index: 100;
   border: none;
   outline: none;
@@ -3675,7 +3680,7 @@ Cta
 
 .accordion {
   width: 100%;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #000000;
   cursor: pointer;
   display: flex;
   margin: 20px 0;
@@ -3686,7 +3691,7 @@ Cta
 
 .accordion i {
   color: #ffffff;
-  background-color: #012bb6;
+  background-color: #2249d3;
   border-radius: 50%;
   padding: 10px;
   font-size: 12px;
@@ -3717,23 +3722,22 @@ Cta
 .accordion h5 {
   font-size: 20px;
   margin: 0;
-  color: #fff;
+  color: rgb(0, 0, 0);
   letter-spacing: 1.5px;
   font-weight: 600;
   padding-left: 5px;
 }
 
-.active i,
 .active h5,
-.accordion:hover i,
 .accordion:hover h5 {
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .panal {
   /* padding: 0 15px; */
   /* border-left: 2px solid #6db5ff; */
   border-radius: 20px;
+  box-shadow: 0px 6px 15px rgba(75, 75, 75, 0.5);
   margin-left: 5px;
   color: white;
   font-size: 14px;
@@ -3745,7 +3749,7 @@ Cta
 
 .panal p {
   color: rgb(0, 0, 0);
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   padding: 15px;
   font-size: 15px;
   letter-spacing: 1.5px;
@@ -3812,7 +3816,7 @@ Cta
 #footer {
   margin: 0;
   padding: 100px;
-  background: #1e5dfa;
+  background: #f2f2f2;
 }
 
 @media screen and (max-width: 650px) {
@@ -3832,15 +3836,17 @@ Cta
   font-size: 40px;
 }
 
-#text h3,
-p {
-  color: white;
+#text h3 {
+  color: rgb(0, 0, 0);
 }
 
+#text p {
+  color: rgb(95, 95, 95);
+}
 /* review section */
 
 section.review {
-  background-color: #1f2639;
+  background-color: #ffffff;
 }
 
 section.review {
@@ -3866,6 +3872,7 @@ section.review {
   font-size: 1.2em;
   flex-basis: 670px;
   border-radius: 20px;
+  box-shadow: 0px 6px 15px rgba(75, 75, 75, 0.5);
   min-width: 670px;
   margin: 30px 30px;
   /* padding: 10; */
@@ -3950,4 +3957,7 @@ h6 {
   }
 }
 
+.tns-visually-hidden {
+  color: #fff;
+}
 /* end review section */
