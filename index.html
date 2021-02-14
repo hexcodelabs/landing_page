@@ -60,7 +60,7 @@
             </div>
             <div class="row d-flex justify-content-center">
                 <div class="col-12 col-lg-6"
-                    style="min-height:500px; display: flex !important;justify-content: center; ">
+                    style="display: flex !important;justify-content: center; ">
                     <img id="header-image" src="./img/header_image/header2.png" alt="">
                     <div class="hero__text" id="header-link">
                         <a href="#" id="header-link" class="primary-btn">
@@ -69,34 +69,34 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6" style="padding: 30px;">
+                <div class="col-12 col-lg-6 m-0 mt-5">
                     <div class="measure-form col-12">
                         <div class="measure-form-top">
                             <span class="circle"></span>
                             <p>Nu åben for tilmeldig</p>
                         </div>
-                        <div id="measure-form-content-1" class="measure-form-content col-12">
+                        <div id="measure-form-content-1" class="measure-form-content m-0 p-3 p-md-5 col-12">
                             <div class="state-bar"></div>
                             <div data-item="1" class="col-12 measure-form-item">
                                 <div class="question">Få en gratis og uforpligtende dialog om dine mål og et online
                                     forløb</div>
                                 <div class="answers">
                                     <div class="row">
-                                        <label class="col-5" for="a1" onclick="chooseus_video(2);">
+                                        <label class="col-12 col-md-5" for="a1" onclick="chooseus_video(2);">
                                             <input type="radio" name="q1" id="a1" value="Vægttab" class="d-none">
                                             <span>Vægttab</span>
                                         </label>
-                                        <label class="col-5" for="a2" onclick="chooseus_video(2);">
+                                        <label class="col-12 col-md-5" for="a2" onclick="chooseus_video(2);">
                                             <input type="radio" name="q1" id="a2" value="Vægttab" class="d-none">
                                             <span>Vægttab</span>
                                         </label>
                                     </div>
                                     <div class="row">
-                                        <label class="col-5" for="a3" onclick="chooseus_video(2);">
+                                        <label class="col-12 col-md-5" for="a3" onclick="chooseus_video(2);">
                                             <input type="radio" name="q1" id="a3" value="Vægttab" class="d-none">
                                             <span>Vægttab</span>
                                         </label>
-                                        <label class="col-5" for="a4">
+                                        <label class="col-12 col-md-5" for="a4">
                                             <input type="radio" name="q1" id="a4" value="Vægttab" class="d-none">
                                             <span>Vægttab</span>
                                         </label>
@@ -163,7 +163,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="measure-form-rating w-100">
+                        <div class="measure-form-rating  p-0 w-100">
                             <div class="pics">
                                 <img src="./img/header_image/circle.png" alt="" class="one">
                                 <img src="./img/header_image/circle.png" alt="" class="two">
@@ -407,13 +407,13 @@
         background-image: url('img/sec.jpg');
       ">
 
-        <div class="row m-0">
-            <div class="col-md-6 pt-5 justify-content-center d-flex">
-                <img src="img/mob.png" alt="Image placeholder"
-                    style="width: 80vh; height: 80vh; object-fit: cover; margin: auto" /> />
+        <div class="row m-0 d-flex align-items-start">
+            <div id="phone-img" class="col-md-6 col-12 pt-5 m-0 justify-content-center d-flex">
+                <img src="img/mob1.png" alt="Image placeholder"
+                    width="100%" height="100%" /> />
             </div>
 
-            <div class="col-md-6  pr-md-5" style="padding-right: 100px !important; padding-left: 100px i !important;">
+            <div class="col-md-5 col-12" >
                 <div class="form-volunteer">
                     <h2 class="pl-3 text-white my-5">
                         Det får du i et online træningsforløb hos mig
@@ -490,7 +490,7 @@
     <section class="call set-bg py-5" style="background-color: hsl(240, 0%, 10%);">
         <div class="">
             <div class="row px-5">
-                <div class="col-lg-5 col-md-6 col-xl-4">
+                <div class="col-12 col-md-5 m-0">
                     <div class="call__text">
                         <div class="section-title">
                             <h2>Lorem Ipsum</h2>
@@ -498,74 +498,42 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 offset-lg-1 col-md-6">
+                <div class="col-12 col-md-7 m-0">
                     <form action="#" class="call__form">
                         <div class="row">
-                            <div class="col-lg-5">
+                            <div class="col-12 col-lg-5 d-flex flex-column align-items-center">
+                                <button type="submit" class="site-btn">Lorem Ipsum</button>
+                                <button type="submit" class="site-btn">Lorem Ipsum</button>
+                                <button type="submit" class="site-btn">Lorem Ipsum</button>
                                 <button type="submit" class="site-btn">Lorem Ipsum</button>
                             </div>
 
-                            <div class="col-lg-2" style=" display: flex;justify-content: center;align-items: center
-                ;">
-                                <div style="background-image: url('img/dot.png');  background-repeat: no-repeat; display: flex;justify-content: center;align-items: center
-                ; width: 87px; height: 86px;">
+                            <div class="col-12 col-lg-2 d-flex flex-column align-items-center" id="arrow-buttons">
+                                <div >
+                                    <a href="#" class="avatar rounded-circle">
+                                        <img class="" alt="Image placeholder" src="img/arrow.png">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#" class="avatar rounded-circle">
+                                        <img class="" alt="Image placeholder" src="img/arrow.png">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="#" class="avatar rounded-circle">
+                                        <img class="" alt="Image placeholder" src="img/arrow.png">
+                                    </a>
+                                </div>
+                                <div>
                                     <a href="#" class="avatar rounded-circle">
                                         <img class="" alt="Image placeholder" src="img/arrow.png">
                                     </a>
                                 </div>
                             </div>
-                            <div class="col-lg-5">
+                            <div class="col-12 col-lg-5 d-flex flex-column align-items-center">
                                 <button type="submit" class="site-btn-two">Lorem Ipsum</button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <button type="submit" class="site-btn">Lorem Ipsum</button>
-                            </div>
-                            <div class="col-lg-2" style=" display: flex;justify-content: center;align-items: center
-                ;">
-                                <div style="background-image: url('img/dot.png');  background-repeat: no-repeat; display: flex;justify-content: center;align-items: center
-                ; width: 87px; height: 86px;">
-                                    <a href="#" class="avatar rounded-circle">
-                                        <img class="" alt="Image placeholder" src="img/arrow.png">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
                                 <button type="submit" class="site-btn-two">Lorem Ipsum</button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <button type="submit" class="site-btn">Lorem Ipsum</button>
-                            </div>
-                            <div class="col-lg-2" style=" display: flex;justify-content: center;align-items: center
-                ;">
-                                <div style="background-image: url('img/dot.png');  background-repeat: no-repeat; display: flex;justify-content: center;align-items: center
-                ; width: 87px; height: 86px;">
-                                    <a href="#" class="avatar rounded-circle">
-                                        <img class="" alt="Image placeholder" src="img/arrow.png">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
                                 <button type="submit" class="site-btn-two">Lorem Ipsum</button>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-5">
-                                <button type="submit" class="site-btn">Lorem Ipsum</button>
-                            </div>
-                            <div class="col-lg-2" style=" display: flex;justify-content: center;align-items: center
-                ;">
-                                <div style="background-image: url('img/dot.png');  background-repeat: no-repeat; display: flex;justify-content: center;align-items: center
-                ; width: 87px; height: 86px;">
-                                    <a href="#" class="avatar rounded-circle">
-                                        <img class="" alt="Image placeholder" src="img/arrow.png">
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col-lg-5">
                                 <button type="submit" class="site-btn-two">Lorem Ipsum</button>
                             </div>
                         </div>
@@ -759,27 +727,27 @@
                     <span class="circle"></span>
                     <p>Nu åben for tilmeldig</p>
                 </div>
-                <div id="measure-form-content-2" class="measure-form-content col-12">
+                <div id="measure-form-content-2" class="measure-form-content p-3 p-md-5 col-12 m-0">
                     <div class="state-bar"></div>
                     <div data-item="1" class="col-12 measure-form-item">
                         <div class="question">Få en gratis og uforpligtende dialog om dine mål og et online forløb</div>
                         <div class="answers">
                             <div class="row">
-                                <label class="col-5" for="a1" onclick="chooseus_video2(2);">
+                                <label class="col-12 col-md-5" for="a1" onclick="chooseus_video2(2);">
                                     <input type="radio" name="q1" id="a1" value="Vægttab" class="d-none">
                                     <span>Vægttab</span>
                                 </label>
-                                <label class="col-5" for="a2" onclick="chooseus_video2(2);">
+                                <label class="col-12 col-md-5" for="a2" onclick="chooseus_video2(2);">
                                     <input type="radio" name="q1" id="a2" value="Vægttab" class="d-none">
                                     <span>Vægttab</span>
                                 </label>
                             </div>
                             <div class="row">
-                                <label class="col-5" for="a3" onclick="chooseus_video2(2);">
+                                <label class="col-12 col-md-5" for="a3" onclick="chooseus_video2(2);">
                                     <input type="radio" name="q1" id="a3" value="Vægttab" class="d-none">
                                     <span>Vægttab</span>
                                 </label>
-                                <label class="col-5" for="a4">
+                                <label class="col-12 col-md-5" for="a4">
                                     <input type="radio" name="q1" id="a4" value="Vægttab" class="d-none">
                                     <span>Vægttab</span>
                                 </label>
