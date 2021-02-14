@@ -1,4 +1,4 @@
-  @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 html,
 body {
@@ -171,11 +171,11 @@ ol {
   width: 250px;
 }
 
-@media screen and (max-width:992px){
+@media screen and (max-width: 992px) {
   .site-btn {
     width: 100%;
   }
-  .site-btn-two{
+  .site-btn-two {
     width: 100%;
   }
 }
@@ -362,14 +362,12 @@ ol {
   padding-bottom: 0px;
 }
 
-
 #header-link {
   position: absolute;
   z-index: 12;
   bottom: 30px;
   left: 50px;
 }
-
 
 @media screen and (max-width: 600px) {
   #hero {
@@ -394,7 +392,7 @@ ol {
   justify-content: space-around;
 }
 
-#header-link a:hover{
+#header-link a:hover {
   color: white;
 }
 
@@ -495,7 +493,7 @@ ol {
   margin-top: 60px !important;
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width: 600px) {
   .measure-form {
     margin-top: 30px !important;
   }
@@ -577,7 +575,7 @@ ol {
   justify-content: center;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .measure-form-content .answers .row label {
     width: 100%;
   }
@@ -601,7 +599,7 @@ ol {
   margin: 20px 0;
 }
 
-@media screen and (max-width:991px){
+@media screen and (max-width: 991px) {
   .measure-form-rating {
     justify-content: center;
   }
@@ -810,8 +808,7 @@ ol {
 }
 
 @media screen and (max-width: 768px) {
-  
-  .chooseus .chooseus-one{
+  .chooseus .chooseus-one {
     height: 50vw;
   }
   .video-wrapper {
@@ -820,8 +817,7 @@ ol {
 }
 
 @media screen and (max-width: 600px) {
-  
-  .chooseus .chooseus-one{
+  .chooseus .chooseus-one {
     height: 50vw;
   }
 
@@ -834,7 +830,6 @@ ol {
   .chooseus .chooseus-two h3 {
     font-size: 30px;
   }
-
 }
 
 .video-wrapper video {
@@ -908,12 +903,12 @@ ol {
   margin-left: 10px;
 }
 
- #phone-img img{
+#phone-img img {
   margin-top: 50px;
- }
+}
 
-@media screen and (max-width: 600px){
-  #phone-img img{
+@media screen and (max-width: 600px) {
+  #phone-img img {
     margin-top: 0;
   }
 }
@@ -3877,6 +3872,7 @@ Cta
   /* background: #0179b6; */
   /* padding-left: 50px; */
   color: #222;
+  width: 80%;
 }
 
 .button-detail-section {
@@ -3919,139 +3915,137 @@ Cta
 /* review section */
 
 section.review {
-    background-color: white;
+  background-color: white;
 }
 
 .tns-liveregion {
-    color: white;
+  color: white;
 }
 
 section.review {
-    padding: 0px 0px;
-    /* padding-bottom: 50px; */
-    margin-bottom: 100px;
-    width: 100%;
+  padding: 0px 0px;
+  /* padding-bottom: 50px; */
+  margin-bottom: 100px;
+  width: 100%;
 }
 
 .slider-container {
-    max-width: 100%;
-    padding: 2rem 5rem;
-    background: #e6e6e6;
-    margin: 2rem auto 0 auto;
-    overflow: hidden;
-    border-radius: 5px;
-    position: relative;
+  max-width: 100%;
+  padding: 2rem 5rem;
+  background: #e6e6e6;
+  margin: 2rem auto 0 auto;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
 }
 
 .slider-container:before {
-    content: '.slider-container';
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: white;
+  content: ".slider-container";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
 }
 
 .tns-outer {
-    width: 694px;
-    margin-left: 970px;
+  width: 694px;
+  margin-left: 970px;
 }
 
 .my-slider {
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    padding-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  padding-bottom: 30px;
 }
 
 .slider-item {
-    background-color: white;
-    padding: 1.5rem .75rem;
-    position: relative;
+  background-color: white;
+  padding: 1.5rem 0.75rem;
+  position: relative;
 }
 
 .slider-item:before {
-    content: '.slider-item';
-    position: absolute;
-    left: 0;
-    top: 0;
-    color: white;
+  content: ".slider-item";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
 }
 
 .w3-container {
-    box-shadow: 0px 6px 15px rgba(75, 75, 75, 0.5);
-    min-height: 350px;
-    background-color: white;
-    padding-left: 30px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-bottom: 20px;
-    height: fit-content;
-    border-radius: 20px;
+  box-shadow: 0px 6px 15px rgba(75, 75, 75, 0.5);
+  min-height: 350px;
+  background-color: white;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  height: fit-content;
+  border-radius: 20px;
 }
 
 .w3-container p {
-    color: grey;
-    overflow-wrap: break-word;
+  color: grey;
+  overflow-wrap: break-word;
 }
 
 .w3-card-4 {
-    width: 670px;
-    min-height: 353px;
+  width: 670px;
+  min-height: 353px;
 }
 
 .w3-container h6 {
-    color: black;
-    font-size: 30px;
+  color: black;
+  font-size: 30px;
 }
 
 h6 {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
-    .tns-outer {
-        width: 360px;
-        margin-left: 718px;
-    }
+  .tns-outer {
+    width: 360px;
+    margin-left: 718px;
+  }
 }
 
-#arrow-buttons{	
-  position: relative;	
-  width: 100%;	
-  min-height: 100px;	
-}	
-#arrow-buttons div{	
-  display: flex;	
-  justify-content: center;	
-  align-items: center;	
-  margin: 10px;	
-  margin-top: 25px;	
-  margin-bottom: 15px;	
-  background: rgba(26, 26, 26, 1);	
-  box-shadow: 0 0 5px  black;	
-  background-image: url('img/dot.png');	
-  background-repeat: no-repeat;	
-  display: flex;	
-  justify-content: center;	
-  align-items: center;	
-  width: 60px;	
-  height: 60px;	
-  background-size: cover;	
-  border-radius: 50% ;	
-}	
-#arrow-buttons div a img{	
-  width: 30px !important;	
-  height: 30px !important;	
-}	
+#arrow-buttons {
+  position: relative;
+  width: 100%;
+  min-height: 100px;
+}
+#arrow-buttons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  background: rgba(26, 26, 26, 1);
+  box-shadow: 0 0 5px black;
+  background-image: url("img/dot.png");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  border-radius: 50%;
+}
+#arrow-buttons div a img {
+  width: 30px !important;
+  height: 30px !important;
+}
 
-@media screen and (max-width:992px){	
-
-  #arrow-buttons div{	
-    position: absolute;	
-    top: 0;	
-    transform: rotateZ(90deg);	
-  }	
-}	
-
+@media screen and (max-width: 992px) {
+  #arrow-buttons div {
+    position: absolute;
+    top: 0;
+    transform: rotateZ(90deg);
+  }
+}
 
 /* end review section */
