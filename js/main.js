@@ -260,57 +260,28 @@ function chooseus_video2(index) {
 
 //review section..
 
-var forEach = function(array, callback, scope) {
-    for (var i = 0; i < array.length; i++) {
-        callback.call(scope, i, array[i]); // passes back stuff we need
+
+const slider = tns({
+    container: '.my-slider',
+    loop: true,
+    items: 1,
+    slideBy: 'page',
+    nav: false,
+    autoplay: true,
+    speed: 2000,
+    interval: 700,
+    autoplayButtonOutput: false,
+    mouseDrag: false,
+    lazyload: true,
+    controlsContainer: "#customize-controls",
+    responsive: {
+        640: {
+            items: 2,
+        },
+
+        768: {
+            items: 1,
+        }
     }
-}
-
-// select all slider parent div.tartist-tiny-slider
-var sliders = document.querySelectorAll('.tartist-tiny-slider');
-
-// chunk function to make groups for every slider's childrens
-var chunk = function(array, size) {
-    let arr = [];
-    for (let i = 0; i < array.length - 5; i += size) {
-        let newSlicedArray = Array.prototype.slice.call(array, i, i + size);
-        arr.push(newSlicedArray);
-    }
-    return arr;
-}
-
-// applying foreach function to the sliders
-forEach(sliders, function(index, value) {
-
-    //selecting childrens
-    let childrens = value.querySelectorAll(".tartist-tiny-slider__item");
-
-    //getting chunksize from the parent
-    let chunkSize = value.dataset.chunksize;
-
-    //making final arrays for the children with chunk size
-    let final = chunk(childrens, parseInt(chunkSize));
-    //wrapping the chunks with div.wrap
-    // let newHTML = final.map(towrap => towrap.reduce((acc, el) => (acc.appendChild(el), acc), document.createElement('div'))).forEach(el => {
-    //     el.className = "wrap";
-    //     value.appendChild(el)
-    // })
-
-    //initialize tiny slider    
-    let slider = tns({
-        container: value,
-        items: 1,
-        slideBy: "page",
-        autoplay: true,
-        autoplayButtonOutput: false,
-        loop: true,
-        mouseDrag: false,
-        gutter: 0,
-        controls: false,
-        navPosition: "bottom",
-        nav: false,
-        speed: 3000,
-        interval: 500,
-    });
 
 });
